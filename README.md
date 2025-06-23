@@ -1,4 +1,4 @@
-Folder Structure (Backend):
+### Folder Structure (Backend):
 Backend
 ├── main.py                      # FastAPI entrypoint, defines API endpoints
 ├── requirements.txt             # Python dependencies
@@ -13,13 +13,16 @@ Backend
 ├── output/                      # (Empty or for generated files)
 ├── templates/                   # (Empty or for web templates)
 ├── venv/                        # Python virtual environment
+
 ---
-Tech Stack:
+
+### Tech Stack:
 Python 3.10+
 FastAPI (web framework)
 PyMuPDF (pymupdf) for PDF parsing and form field extraction/filling
 Mistral API (via mistralai client) for OCR and AI chat completion
 pdfrw (legacy/simple PDF filling)
+
 ---
 
 ### Task: Automate the Prior Authorization (PA) Form Filling Workflow
