@@ -1,5 +1,7 @@
-### Folder Structure (Backend):
+#### Folder structure (Backend)
 
+<pre>
+BackEnd/
 ├── main.py                      # FastAPI entrypoint, defines API endpoints
 ├── requirements.txt             # Python dependencies
 ├── app/
@@ -13,6 +15,7 @@
 ├── output/                      # (Empty or for generated files)
 ├── templates/                   # (Empty or for web templates)
 ├── venv/                        # Python virtual environment
+</pre>
 
 ---
 
