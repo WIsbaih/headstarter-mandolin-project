@@ -1,3 +1,32 @@
+#### Folder structure (Backend)
+
+<pre>
+BackEnd/
+├── main.py                      # FastAPI entrypoint, defines API endpoints
+├── requirements.txt             # Python dependencies
+├── app/
+│   ├── extract.py               # Core logic: PDF field extraction, OCR, AI-driven field mapping, PDF filling
+│   ├── misteralai_service.py    # Service layer for Mistral API (OCR and chat), sync and async helpers
+│   ├── fill_form.py             # Utility for filling PDF forms using pdfrw (legacy/simple use)
+│   ├── extract_temp.py          # Simple utility for extracting structured data from a PDF (for testing)
+│   ├── extract_temp1.py         # (Legacy/experimental) - not used in main workflow
+│   ├── extract_final.py         # (Legacy/experimental) - not used in main workflow
+│   └── __pycache__/             # Python bytecode cache
+├── output/                      # (Empty or for generated files)
+├── templates/                   # (Empty or for web templates)
+├── venv/                        # Python virtual environment
+</pre>
+
+---
+
+### Tech Stack:
+- Python 3.10+
+- FastAPI (web framework)
+- PyMuPDF (pymupdf) for PDF parsing and form field extraction/filling
+- Mistral API (via mistralai client) for OCR and AI chat completion
+
+---
+
 ### Task: Automate the Prior Authorization (PA) Form Filling Workflow
 
 ---
