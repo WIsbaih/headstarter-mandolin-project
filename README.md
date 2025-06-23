@@ -1,5 +1,5 @@
 ### Folder Structure (Backend):
-Backend
+
 ├── main.py                      # FastAPI entrypoint, defines API endpoints
 ├── requirements.txt             # Python dependencies
 ├── app/
