@@ -20,11 +20,10 @@ BackEnd/
 ---
 
 ### Tech Stack:
-Python 3.10+
-FastAPI (web framework)
-PyMuPDF (pymupdf) for PDF parsing and form field extraction/filling
-Mistral API (via mistralai client) for OCR and AI chat completion
-pdfrw (legacy/simple PDF filling)
+- Python 3.10+
+- FastAPI (web framework)
+- PyMuPDF (pymupdf) for PDF parsing and form field extraction/filling
+- Mistral API (via mistralai client) for OCR and AI chat completion
 
 ---
 
